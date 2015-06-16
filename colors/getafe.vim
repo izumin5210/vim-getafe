@@ -173,7 +173,7 @@ exe "hi VertSplit       guifg=#F8FFF9   guibg=#5A7085                       cter
 exe "hi Folded          guifg=#5A7085   guibg=#FFDC00                       ctermfg=".s:cterm_grey."       ctermbg=".s:cterm_yellow
 exe "hi IncSearch       guifg=#1B1D1E   guibg=#a7a7a7                       ctermfg=".s:cterm_brown."      ctermbg=".s:cterm_white
 exe "hi LineNr          guifg=#5A7085   guibg=#000000                       ctermfg=".s:cterm_grey."       ctermbg=".s:cterm_black
-exe "hi NonText         guifg=#eeeeee   guibg=#1B1D1E                       ctermfg=".s:cterm_white."      ctermbg=".s:cterm_white
+exe "hi NonText         guifg=#eeeeee   guibg=#1B1D1E                       ctermfg=".s:cterm_white."      ctermbg=".s:cterm_black
 exe "hi Search          guifg=#F8FFF9   guibg=#FF358B                       ctermfg=".s:cterm_white."      ctermbg=".s:cterm_pink
 exe "hi StatusLine      guifg=#000000   guibg=#01B0F0    gui=bold           ctermfg=".s:cterm_black."      ctermbg=".s:cterm_blue
 exe "hi StatusLineNC    guifg=#F8FFF9   guibg=#5A7085                       ctermfg=".s:cterm_white."      ctermbg=".s:cterm_grey
