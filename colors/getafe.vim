@@ -41,7 +41,7 @@ endif
 if g:getafe_use_Xresources == 1
   let s:cterm_blue    = 4
   let s:cterm_purple  = 5
-  let s:ctern_pink    = 13
+  let s:cterm_pink    = 13
   let s:cterm_black   = 8
   let s:cterm_brown   = 8
   let s:cterm_green   = 2
@@ -54,7 +54,7 @@ if g:getafe_use_Xresources == 1
 else
   let s:cterm_blue    = 39
   let s:cterm_purple  = 204
-  let s:ctern_pink    = 202
+  let s:cterm_pink    = 202
   let s:cterm_black   = 15
   let s:cterm_brown   = 234
   let s:cterm_green   = 154
@@ -166,7 +166,7 @@ exe "hi Todo            guifg=#F8FFF9   guibg=#1B1D1E   gui=none            cter
 "————————————————————————————————————————————————————————————————————————————————————————————————————————————————————"
 
 exe "hi ColorColumn                     guibg=#5A7085                                                  ctermbg=".s:cterm_grey
-exe "hi Cursor          guifg=#1B1D1E   guibg=#FF358B                       ctermfg=".s:cterm_brow."       ctermbg=".s:cterm_pink
+exe "hi Cursor          guifg=#1B1D1E   guibg=#FF358B                       ctermfg=".s:cterm_brown."       ctermbg=".s:cterm_pink
 exe "hi CursorLine                      guibg=#000000                                                  ctermbg=".s:cterm_black
 exe "hi Directory       guifg=#01B0F0                                       ctermfg=".s:cterm_blue
 exe "hi VertSplit       guifg=#F8FFF9   guibg=#5A7085                       ctermfg=".s:cterm_white."      ctermbg=".s:cterm_grey
