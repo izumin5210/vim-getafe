@@ -42,10 +42,10 @@ if g:getafe_use_Xresources == 1
   let s:cterm_blue    = 4
   let s:cterm_purple  = 5
   let s:cterm_pink    = 13
-  let s:cterm_black   = 8
-  let s:cterm_brown   = 8
+  let s:cterm_black   = 0
+  let s:cterm_brown   = 0
   let s:cterm_green   = 2
-  let s:cterm_grey    = 0
+  let s:cterm_grey    = 8
   let s:cterm_orange  = 1
   let s:cterm_yellow  = 3
   let s:cterm_white   = 7
